@@ -43,9 +43,7 @@ export default function Home() {
           </Gate>
           <Gate product={product}>Active plan</Gate>
           <Gate product={product} negate>
-            <button onClick={() => redirectToCustomerPortal()}>
-              Change plan
-            </button>
+            
           </Gate>
         </div>
       ))}
