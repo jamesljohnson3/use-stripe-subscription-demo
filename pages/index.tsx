@@ -58,7 +58,7 @@ export default function Home() {
         </button>
       </div>
       <div>
-        <Gate feature="feature2">Plan has &quot;feature2&quot;</Gate>
+        <Gate feature="unlimitednow">Plan has &quot;feature2&quot;</Gate>
         <Gate feature="feature2" negate>
           Plan does not have &quot;feature2&quot;
         </Gate>{" "}
